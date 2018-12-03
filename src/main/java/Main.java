@@ -1,5 +1,5 @@
 import javax.xml.xquery.*;
-//import javax.xml.namespace.QName;
+import javax.xml.namespace.QName;
 import net.xqj.basex.BaseXXQDataSource;
 
 public class Main
