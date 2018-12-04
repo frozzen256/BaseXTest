@@ -23,8 +23,8 @@ public class Main
 
         String sq1 = "declare namespace ns2 = \"http://zakupki.gov.ru/oos/export/1\"; " +
                 "declare default element namespace \"http://zakupki.gov.ru/oos/types/1\"; " +
-                "for $i in collection(\"Contracts\")/ns2:export/ns2:contract/customer/fullName return " +
-                "$i/data()";
+                "for $i in collection(\"Contracts\")/ns2:export/ns2:contract return " +
+                "$i";
         final long time = System.nanoTime();
 
         XQPreparedExpression xqpe =
